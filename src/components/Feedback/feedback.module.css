@@ -1,0 +1,59 @@
+.feedback {
+    
+    margin-bottom: 40px;
+}
+
+.main_title {
+    font-family: 'Montserrat';
+    font-size: 46px;
+    text-align: left;
+    
+}
+
+
+.feedback_title {
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: brown;
+}
+
+.feedback_btns {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.good button{
+    background-color: wheat;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    color: brown;
+}
+
+.neutral button{
+    background-color: wheat;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    color: brown;
+} 
+
+.bad button{
+    background-color: wheat;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    color: brown;
+}
+
+button:hover, 
+button:active {
+    background-color: brown;;
+    color: burlywood;
+}

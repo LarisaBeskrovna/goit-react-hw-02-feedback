@@ -14,6 +14,17 @@ code {
     monospace;
 }
 
-p {
+p, h1 {
   text-align: center;
+}
+
+.App{
+  background: burlywood;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 15px 20px;
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, .4);
+  margin-top: 10px;
 }
